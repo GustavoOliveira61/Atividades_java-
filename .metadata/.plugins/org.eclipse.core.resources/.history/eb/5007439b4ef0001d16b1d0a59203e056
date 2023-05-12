@@ -1,0 +1,24 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		
+		//uma constante e quando seu valor não muda 
+      final double PI = 3.1415;
+      int valor1 = 50;
+      int valor2 = 65;
+      
+      //realiza a potencia
+      System.out.println(Math.pow(2 , 2));
+      
+      //passgem de 2 numeros como parametro
+      //retorna o maior deles 
+      System.out.println(Math.max(5, 20));
+      
+      //e o inverso do max, pega o minimo
+      System.out.println(Math.IEEEremainder(5, 20));
+	}
+
+}
