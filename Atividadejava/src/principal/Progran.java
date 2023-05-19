@@ -3,6 +3,7 @@ package principal;
 import java.util.Scanner;
 
 public class Progran {
+
    public static void main (String[] args) {
 	   Scanner sr = new Scanner (System.in);
 	   
@@ -27,11 +28,13 @@ public class Progran {
 		   System.out.println(" o maior numero é:" + num2);
 		    }
 	   else {
-		   System.out.println("o maior numero é:" + num3);
-	   }
+		   //System.out.println("o maior numero é:" + num3);
+{
 	   
 	   sr.close();
 	   
    }
    
-}
+    }
+
+     
